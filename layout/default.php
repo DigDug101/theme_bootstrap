@@ -47,7 +47,11 @@ echo $OUTPUT->doctype() ?>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php echo $CFG->wwwroot;?>"><?php echo $SITE->shortname; ?></a>
+        <a class="navbar-brand" href="/">SLOODLE</a>
+        <a class="navbar-brand" href="/download/">Download</a>
+        <a class="navbar-brand" href="/research/">Research</a>
+        <a class="navbar-brand" href="/moodle/mod/forum/index.php?id=3">Forums</a>
+        <a class="navbar-brand" href="/docs">Documentation</a>
     </div>
 
     <div id="moodle-navbar" class="navbar-collapse collapse">
